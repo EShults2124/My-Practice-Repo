@@ -6,7 +6,7 @@ public class SayHelloTest {
     @Test
     void testSayHello() {
 
-        assertEquals("Hello World?", SayHello.helloWorld()); // will fail
+        assertEquals("Hello World!", SayHello.helloWorld()); // will succees
 
     }
 
