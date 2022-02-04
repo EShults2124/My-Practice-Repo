@@ -4,7 +4,7 @@ import org.junit.*;
 public class SayHelloTest {
 
     @Test
-    void testSayHello() {
+    public void testSayHello() {
 
         assertEquals("Hello World!", SayHello.helloWorld()); // will succees
 
